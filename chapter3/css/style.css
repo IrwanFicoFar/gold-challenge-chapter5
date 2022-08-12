@@ -1,0 +1,578 @@
+.bgmain {
+    background-image: url('assets/main-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.navSudut {
+    padding-left: 200px;
+}
+
+.navbar-brand {
+    justify-content: center;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+letter-spacing: 0.1em;
+}
+
+.nav-item {
+    padding-right:15px;
+    padding-left:15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.row-style {
+    background-color:  rgba(0, 0, 0, 0.75);
+}
+
+.row-style2 {
+    margin-top: 200px;
+}
+
+.row-style2 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: 3px;
+    
+}
+
+.row-style2 h6 {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.row-style2 button {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.row-style2 .history {
+    margin-top: 170px;
+
+}
+
+.history a {
+    color: white;
+}
+
+
+/* game_gallery */
+.bgmain2 {
+    background-image: url('assets/the-games-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style3  {
+    padding-top: 200px;
+    color: white;
+    padding-left: 100px;
+    
+}
+
+.row-style3 .col-md-4 {
+    color: white;
+}
+
+.row-style3 .col-md-8 {
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    
+}
+
+.row-style3 h6 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+}
+
+.row-style3 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+
+}
+
+.colSudut {
+    padding-right: 100px;
+}
+
+.carousel-control-prev {
+    margin: -80px;
+}
+
+.carousel-control-next {
+    margin: -80px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* game_gallery */
+
+.bgmain3 {
+    background-image: url('assets/features.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style4  {
+    padding-top: 170px;
+    color: white;  
+    padding-left: 100px;
+}
+
+.row-style4 h6 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.row-style4 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+}
+
+.row-style4 h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFB548;
+}
+
+.row-style4 h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.list1 .row {
+    margin-top: 30px;
+}
+
+.list1 .col-md-1 {
+    padding-top: 3px;
+}
+
+
+/* requirements */
+.bgmain4 {
+    background-image: url('assets/requirements.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style5  {
+    padding-top: 30px;
+    color: white;  
+
+}
+
+.row-style5 h3  {
+    padding-top: 100px;
+    color: white;  
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.row-style5 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: left;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.row-style5 .row {
+    padding-left: 105px;
+}
+
+.row-style5 h2 {
+    color: orange;
+    font-size: 24px;
+}
+
+.row-style5 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.table-bordered {
+    margin-top: 30px;
+}
+
+/* topsScores */
+.bgmain5 {
+    background-image: url('assets/top-score-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style6  {
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
+.row-style6 h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.row-style6 p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+.row-style6 button {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+
+}
+
+.table td {
+    border-top : #33383d;
+}
+
+.row-style62  {
+    padding-top: 120px;
+    padding-left: 100px;
+}
+  {
+    padding-top: 10px;
+}
+
+.card-header {
+    padding: 0px;
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.lebar {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.table {
+    padding: 0px;
+    margin: 0px;
+}
+
+.review {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card h5{
+    color: #FFB548;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card h6{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.card p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: darkgray;
+    
+}
+
+/* subscribe */
+.bgmain6 {
+    background-image: url('assets/newsletter.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.row-style7 {
+    padding-top: 80px; 
+}
+
+.row-style8 {
+   color: white;
+}
+
+.row-style8 h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 20px;
+ }
+
+ .row-style8 h6{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-top: 90px;
+ }
+
+ .row-style8 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .row-style8 button{
+    margin-top: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ .footerAkhir {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+ }
+
+ .akhir {
+    margin-left: 100px;
+ }
+
+ .akhir2 {
+    margin-right: 100px;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 720px) {
+    .bgmain {
+        height: 1250px;
+        
+    }
+
+    .bgmain2 {
+        
+        height: 500px;
+        
+    }
+
+    .bgmain3 {
+        
+        height: 800px;
+        
+    }
+
+    .bgmain4 {
+        
+        height: 800px;
+        
+    }
+
+    .bgmain5 {
+        
+        height: 1200px;
+        
+    }
+
+    .bgmain6 {
+        
+        height: 1300px;
+       
+    }
+
+    .navSudut {
+        padding-left: 0px;
+    }
+
+    .row-style3  {
+        padding-top: 10px;
+
+    }
+
+    .row-style2 h1 {
+ 
+        font-size: 60px;
+ 
+    }
+    .row-style4  {
+        padding-top: 170px;
+        color: white;
+        padding-left: 0px;  
+    }
+
+    .row-style5 .row {
+        padding-left: 0px;
+    }
+
+    .row-style5 h1 {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 64px;
+        text-align: left;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .row-style6  {
+        padding-top: 0x;
+
+        justify-content: center;
+    }
+
+    .row-style62  {
+        padding-top: 00px;
+        justify-content: center;
+    }
+
+    .row-style6  {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .row-style7 {
+        padding-top: 80px; 
+        padding-bottom: 120px;
+    }
+
+    .row-style8 h1{
+
+        font-size: 60px;
+;
+     }
+
+    .akhir {
+        margin-left: 0px;
+     }
+    
+     .akhir2 {
+        margin-right: 0px;
+    
+     }
+
+     .row-style8 h1{
+        margin-top: 0px;
+     }
+    
+     .row-style8 h6{
+        margin-top: 0px;
+     }
+    
+     .row-style8 p{
+        margin-top: 20px;
+     }
+
+}
+

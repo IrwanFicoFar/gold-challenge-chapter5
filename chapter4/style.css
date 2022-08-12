@@ -1,0 +1,125 @@
+body {
+    background-color: orange;
+}
+
+.header {
+    padding: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+
+}
+
+.imageRefresh {
+    width: 50px;
+    height: 50px;
+}
+
+.vs {
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+    color: blueviolet;
+    font-weight: 700;
+    animation-name: example;
+    animation: example 10s infinite;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+
+.final-result-man-win {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    background-color: green;
+    color: aliceblue;
+    transform: rotate(30deg);
+    text-align: center;
+  }
+
+.final-result-com-win {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    background-color: red;
+    color: aliceblue;
+    transform: rotate(-30deg);
+    text-align: center;
+  }
+
+.final-result-draw {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 20px; */
+  }
+
+
+.animated{
+    opacity:75%;
+    animation: zoom-in-zoom-out 1s ease infinite
+}
+
+.gen-num {
+    font-size: 40px;
+    animation: zoom-in-zoom-out 1s ease infinite
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+#batuMan-color {
+    border-radius: 50px;
+}
+
+#kertasMan-color {
+    border-radius: 50px;
+}
+
+#guntingMan-color {
+    border-radius: 50px;
+}
+
+#batuCom-color {
+    border-radius: 50px;
+}
+
+#kertasCom-color {
+    border-radius: 50px;
+}
+
+#guntingCom-color {
+    border-radius: 50px;
+}
