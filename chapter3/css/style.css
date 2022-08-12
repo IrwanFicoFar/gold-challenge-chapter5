@@ -1,5 +1,5 @@
 .bgmain {
-    background-image: url('assets/main-bg.jpg');
+    background-image: url('/chapter3/assets/main-bg.jpg');
     height: 100vh;
     background-size: cover;
 }
@@ -83,7 +83,7 @@ letter-spacing: 0.1em;
 
 /* game_gallery */
 .bgmain2 {
-    background-image: url('assets/the-games-bg.jpg');
+    background-image: url('/chapter3/assets/the-games-bg.jpg');
     height: 100vh;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ letter-spacing: 0.1em;
 /* game_gallery */
 
 .bgmain3 {
-    background-image: url('assets/features.jpg');
+    background-image: url('/chapter3/assets/features.jpg');
     height: 100vh;
     background-size: cover;
 }
@@ -211,7 +211,7 @@ letter-spacing: 0.1em;
 
 /* requirements */
 .bgmain4 {
-    background-image: url('assets/requirements.png');
+    background-image: url('/chapter3/assets/requirements.png');
     height: 100vh;
     background-size: cover;
 }
@@ -268,7 +268,7 @@ letter-spacing: 0.1em;
 
 /* topsScores */
 .bgmain5 {
-    background-image: url('assets/top-score-bg.png');
+    background-image: url('/chapter3/assets/top-score-bg.png');
     height: 100vh;
     background-size: cover;
 }
@@ -315,9 +315,6 @@ letter-spacing: 0.1em;
 .row-style62  {
     padding-top: 120px;
     padding-left: 100px;
-}
-  {
-    padding-top: 10px;
 }
 
 .card-header {
@@ -374,7 +371,7 @@ letter-spacing: 0.1em;
 
 /* subscribe */
 .bgmain6 {
-    background-image: url('assets/newsletter.png');
+    background-image: url('/chapter3/assets/newsletter.png');
     height: 100vh;
     background-size: cover;
 }
