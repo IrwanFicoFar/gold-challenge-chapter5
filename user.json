@@ -1,0 +1,62 @@
+[
+    {        
+        "id": 1,
+        "user": "irwan25",
+        "password": "kepaksayap45",
+        "nama": "Irwan",
+        "umur": "27",
+        "kelamin": "Pria",        
+        "alamat": "Jakarta Barat",
+        "status": "Lajang",
+        "pekerjaan": "Engineering",
+        "moto": "Semangat"
+    },
+    {        
+        "id": 2,
+        "user": "hanip7",
+        "password": "biarsaja5",
+        "nama": "Hanip Nurmantiyo",
+        "umur": "29",
+        "kelamin": "Pria",        
+        "alamat": "Jawa tengah",
+        "status": "Menikah",
+        "pekerjaan": "Banking",
+        "moto": "Hidup Bermartabat, Mati ke Akhirat"
+    },
+    {        
+        "id": 3,
+        "user": "wadni65",
+        "password": "ambilsaja1",
+        "nama": "siti wadniyah",
+        "umur": "25",
+        "kelamin": "wanita",        
+        "alamat": "bekasi",
+        "status": "lajang",
+        "pekerjaan": "Guru",
+        "moto": "Hidup Mulia"
+    },
+    {        
+        "id": 4,
+        "user": "karim3",
+        "password": "kurang1",
+        "nama": "Muhammad Karim Sajat",
+        "umur": "28",
+        "kelamin": "Pria",        
+        "alamat": "Bogor",
+        "status": "lajang",
+        "pekerjaan": "Arsitek",
+        "moto": "Rumah adalah Syurga"
+    },
+    {        
+        "id": 5,
+        "user": "dudu34",
+        "password": "nambah6",
+        "nama": "dudu setiayu ningsih",
+        "umur": "24",
+        "kelamin": "Wanita",        
+        "alamat": "bandung",
+        "status": "Menikah",
+        "pekerjaan": "Dokter",
+        "moto": "Membantu Sesama"
+    }
+]
