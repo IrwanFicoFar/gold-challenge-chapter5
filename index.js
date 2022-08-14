@@ -17,11 +17,11 @@ app.use('/views', express.static(__dirname + '/views'))
 app.get('/', (req, res) => {
     res.send("hey test awal")
 })
-// challenge point 3 untuk pengecekan API via postman
+// challenge point 1
 app.get('/chapter3', (req,res) => {
     res.sendFile(path.join(__dirname + '/chapter3/master.html'))
 })
-// challenge point 3 untuk pengecekan API via postman
+// challenge point 1
 app.get('/chapter4', (req,res) => {
     res.sendFile(path.join(__dirname + '/chapter4/index.html'))
 })
