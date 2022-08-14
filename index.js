@@ -8,8 +8,8 @@ const { retrieveDataJson, printUrl } = require('./js/retrieveData')
 const app = express()
 const jsonParser = bodyParser.json()
 
-app.use('/chapter3', express.static(__dirname + '/chapter03'))
-app.use('/chapter4', express.static(__dirname + '/chapter04'))
+app.use('/chapter3', express.static(__dirname + '/chapter3'))
+app.use('/chapter4', express.static(__dirname + '/chapter4'))
 app.use('/css', express.static(__dirname + '/css'))
 app.use('/js', express.static(__dirname + '/js'))
 app.use('/views', express.static(__dirname + '/views'))
@@ -20,12 +20,12 @@ app.get('/', (req, res) => {
     res.send("hey test awal")
 })
 // challenge point 1
-app.get('/chapter03', (req,res) => {
-    res.sendFile(path.join(__dirname + '/chapter03/master.html'))
+app.get('/chapter3', (req,res) => {
+    res.sendFile(path.join(__dirname + '/chapter3/master.html'))
 })
 // challenge point 1
-app.get('/chapter04', (req,res) => {
-    res.sendFile(path.join(__dirname + '/chapter04/index.html'))
+app.get('/chapter4', (req,res) => {
+    res.sendFile(path.join(__dirname + '/chapter4/index.html'))
 })
 
 // challenge point 4 membuat serving data user dalam bentuk json
