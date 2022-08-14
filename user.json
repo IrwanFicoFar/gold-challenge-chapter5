@@ -2,7 +2,7 @@
     {        
         "id": 1,
         "user": "irwan25",
-        "password": "kepaksayap45",
+        "password": "kurang1",
         "nama": "Irwan",
         "umur": "27",
         "kelamin": "Pria",        
@@ -14,7 +14,7 @@
     {        
         "id": 2,
         "user": "hanip7",
-        "password": "biarsaja5",
+        "password": "kurang2",
         "nama": "Hanip Nurmantiyo",
         "umur": "29",
         "kelamin": "Pria",        
@@ -26,7 +26,7 @@
     {        
         "id": 3,
         "user": "wadni65",
-        "password": "ambilsaja1",
+        "password": "kurang3",
         "nama": "siti wadniyah",
         "umur": "25",
         "kelamin": "wanita",        
@@ -38,7 +38,7 @@
     {        
         "id": 4,
         "user": "karim3",
-        "password": "kurang1",
+        "password": "kurang4",
         "nama": "Muhammad Karim Sajat",
         "umur": "28",
         "kelamin": "Pria",        
@@ -50,7 +50,7 @@
     {        
         "id": 5,
         "user": "dudu34",
-        "password": "nambah6",
+        "password": "kurang5",
         "nama": "dudu setiayu ningsih",
         "umur": "24",
         "kelamin": "Wanita",        
