@@ -20,7 +20,7 @@ const authorizer = async () => {
         alert("USER & PASSWORD TIDAK COCOK\nCOBA ULANGI KEMBALI")
       }else{
         alert("USER & PASSWORD COCOK")
-        window.location.replace("/views/login-success.html")
+        window.location.replace('/login-success')
       }
 
     

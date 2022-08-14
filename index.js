@@ -4,7 +4,6 @@ const fs = require('fs')
 const bodyParser = require('body-parser')
 const { retrieveDataJson, printUrl } = require('./js/retrieveData')
 
-
 const app = express()
 const jsonParser = bodyParser.json()
 
@@ -15,10 +14,13 @@ app.use('/js', express.static(__dirname + '/js'))
 app.use('/views', express.static(__dirname + '/views'))
 app.use(printUrl)
 
+app.set('view engine', 'ejs')
+
 // challenge point 3 untuk pengecekan API via postman
 app.get('/', (req, res) => {
     res.send("hey test awal")
 })
+
 // challenge point 1
 app.get('/chapter3', (req,res) => {
     res.sendFile(path.join(__dirname + '/chapter3/master.html'))
@@ -33,9 +35,16 @@ app.get('/user', (req,res) => {
     let myUser = retrieveDataJson()
     res.send(myUser)
 })
+
 // challenge point 2 untuk login user
 app.get('/login', (req,res) => {
-    res.sendFile(path.join(__dirname + '/views/login.html'))
+    // res.sendFile(path.join(__dirname + '/views/login.html'))
+    res.render('login', {css: '/css/login.css', js: 'js/login.js'})
+})
+
+app.get('/login-success', (req,res) => {
+    // res.sendFile(path.join(__dirname + '/views/login-success.html'))
+    res.render('login-success', {css: '/css/loginSuccess.css', js: 'js/loginSuccess.js'})
 })
 
 // challenge point 3 untuk pengecekan via post dengan body API postman dan challenge 2
