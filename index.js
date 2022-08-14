@@ -13,29 +13,30 @@ app.use('/css', express.static(__dirname + '/css'))
 app.use('/js', express.static(__dirname + '/js'))
 app.use('/views', express.static(__dirname + '/views'))
 
-
+// challenge point 3 untuk pengecekan API via postman
 app.get('/', (req, res) => {
     res.send("hey test awal")
 })
-
+// challenge point 3 untuk pengecekan API via postman
 app.get('/chapter3', (req,res) => {
     res.sendFile(path.join(__dirname + '/chapter3/master.html'))
 })
-
+// challenge point 3 untuk pengecekan API via postman
 app.get('/chapter4', (req,res) => {
     res.sendFile(path.join(__dirname + '/chapter4/index.html'))
 })
 
+// challenge point 4 membuat serving data user dalam bentuk json
 app.get('/user', (req,res) => {
     let myUser = JSON.parse(fs.readFileSync('user.json', 'utf-8'))
     res.send(myUser)
 })
-
+// challenge point 2 untuk login user
 app.get('/login', (req,res) => {
     res.sendFile(path.join(__dirname + '/views/login.html'))
 })
 
-
+// challenge point 3 untuk pengecekan via post dengan body API postman dan challenge 2
 app.post('/authorized', jsonParser, (req, res) => {   
 
    let myUser = JSON.parse(fs.readFileSync('user.json', 'utf-8'))    
