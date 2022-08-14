@@ -2,7 +2,7 @@
     {        
         "id": 1,
         "user": "irwan25",
-        "password": "kurang1",
+        "password": "9c5efaacef82f2165e9c7ee5c2a401c8", 
         "nama": "Irwan",
         "umur": "27",
         "kelamin": "Pria",        
@@ -14,7 +14,7 @@
     {        
         "id": 2,
         "user": "hanip7",
-        "password": "kurang2",
+        "password": "37c9ee8884d528a7c24816e9316f5634", 
         "nama": "Hanip Nurmantiyo",
         "umur": "29",
         "kelamin": "Pria",        
@@ -26,7 +26,7 @@
     {        
         "id": 3,
         "user": "wadni65",
-        "password": "kurang3",
+        "password": "80bfc1f54d0dfc87f8d2af77deb4e5fd",
         "nama": "siti wadniyah",
         "umur": "25",
         "kelamin": "wanita",        
@@ -38,7 +38,7 @@
     {        
         "id": 4,
         "user": "karim3",
-        "password": "kurang4",
+        "password": "082432616a7094a34993e88b38f7bcc4",
         "nama": "Muhammad Karim Sajat",
         "umur": "28",
         "kelamin": "Pria",        
@@ -50,7 +50,7 @@
     {        
         "id": 5,
         "user": "dudu34",
-        "password": "kurang5",
+        "password": "8ef30221234e84973045ac125c06b8bc",
         "nama": "dudu setiayu ningsih",
         "umur": "24",
         "kelamin": "Wanita",        

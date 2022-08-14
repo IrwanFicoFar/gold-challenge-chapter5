@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs')
 const bodyParser = require('body-parser')
+const md5 = require('md5')
 const { retrieveDataJson, printUrl } = require('./js/retrieveData')
 
 const app = express()
@@ -53,24 +54,24 @@ app.post('/authorized', jsonParser, (req, res) => {
    let myUser = retrieveDataJson()   
         // saya coba pakai looping for i,  tapi yang muncul hanya 1 object saja, seolah hanya bisa respon sekali saja. jadi terpaksa saya if satu persatu,  
         // dan saat pakai looping selau ada error Cannot set headers after they are sent to the client, belum saya temukan solusinya.
-        if (myUser[4].user === req.body.user && myUser[4].password === req.body.password) {
+        if (myUser[4].user === req.body.user && myUser[4].password === md5(req.body.password)) {
             res.send("Authorized")
             console.log(myUser[4].user)
-            let data5
+            console.log(myUser[4].password)
         }
-        else if (myUser[3].user === req.body.user && myUser[3].password === req.body.password) {
+        else if (myUser[3].user === req.body.user && myUser[3].password === md5(req.body.password)) {
             res.send("Authorized")
             console.log(myUser[3].user)
         }
-        else if (myUser[2].user === req.body.user && myUser[2].password === req.body.password) {
+        else if (myUser[2].user === req.body.user && myUser[2].password === md5(req.body.password)) {
             res.send("Authorized")
             console.log(myUser[2].user)
         }
-        else if (myUser[1].user === req.body.user && myUser[1].password === req.body.password) {
+        else if (myUser[1].user === req.body.user && myUser[1].password === md5(req.body.password)) {
             res.send("Authorized")
             console.log(myUser[1].user)
         }
-        else if (myUser[0].user === req.body.user && myUser[0].password === req.body.password) {
+        else if (myUser[0].user === req.body.user && myUser[0].password === md5(req.body.password)) {
             res.send("Authorized")
             console.log(myUser[0].user)
         }
