@@ -11,8 +11,19 @@ body {
     color: white;
 }
 
-.letter {
-    margin: 80px;
+.letter h2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .form {
