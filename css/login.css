@@ -11,6 +11,10 @@ body {
     color: white;
 }
 
+.letter2 {
+    margin: 60px;
+}
+
 .letter h2 {
     width: 100%;
     height: 100%;
